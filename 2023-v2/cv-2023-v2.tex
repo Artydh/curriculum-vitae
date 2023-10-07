@@ -1,0 +1,213 @@
+% Mitchell Hopkins's CV
+% Last revision 6th Oct 23
+
+\documentclass[10pt,a4paper]{article}
+
+% environments
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% commands
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% set font to default sans-serif
+\usepackage[OT1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+
+% packages to be used
+\usepackage{fancyhdr}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{hyperref}
+    \hypersetup{colorlinks=true,linkcolor=RoyalBlue,urlcolor=RoyalBlue}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+
+% section parameters
+\usepackage{titling}
+\usepackage{titlesec}
+    \titleformat{\section}{\color{darkgray}\Large\scshape\bfseries}{}{0em}{}
+    \titleformat{\subsection}{\scshape\bfseries}{}{0em}{}
+    \titleformat{\subsubsection}[runin]{\bfseries}{}{0em}{}
+    \titlespacing{\section}{0em}{-.8em}{0em}
+    \titlespacing{\subsection}{0em}{-.2em}{0em}
+    \titlespacing{\subsubsection}{2em}{-.2em}{.5em}
+
+\begin{document}
+
+% header and footer
+\fancypagestyle{firstpage}
+{
+	\fancyhf{}
+	\setlength\headheight{43pt}
+	\fancyhead[CO,CO]{\color{darkgray}\bfseries\Large{{Mitchell Harvey Hopkins}} \\ \small{\href{mailto:mh@artydh.io}{mh@artydh.io} | \href{https://linkedin.com/in/artydh}{https://www.linkedin.com/in/artydh} | ({+}44) 77633 51192}}
+	\fancyfoot[CO]{}
+}
+
+\thispagestyle{firstpage}
+\vspace*{-2.5em}
+
+% document content
+\section{Person}
+\begin{multicols}{2}
+    \noindent \small\emph{\color{gray}\small A creative technologist with a passion for learning, evolving and maintaining high standards of work.}\\\\
+    \noindent An IT professional driven by a desire to grow, improve and enrich not only themselves but also their colleagues. Strongly believes in sharing knowledge and information through excellent communication and team-work.
+
+    \noindent Possesses good time management skills and an attention to detail that enables to problem solving and getting to the issues at hand.
+    
+    \noindent A sense of creativity that promotes thinking ``outside of the box'', helping to see the bigger picture as well as the more fine-grained.
+
+    \noindent Analytical and methodical, allowing for the understanding of complex problems. Through proficiency in English and excellent communication skills, able to provide, question and format information in a clear, concise manner.
+
+    \noindent Self-studying data analytics (SQL, Python, statistics) and computer science.
+\end{multicols}
+
+\hrule
+\vspace*{2em}
+
+\section{Experience}
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{Ideal World Limited}}
+		{\textbf{Peterborough, UK}}
+	\\
+	\headerrow
+		{\emph{IT Operations Analyst}}
+		{\emph{May '23 -- Oct '23}}
+	\begin{itemize}
+		\item Responsible for modernising intranet/internal sites using Sharepoint 365, migrating from Sharepoint 2010, achieved by consulting key stakeholders across business, resulting in increased accessibility of company resources and improved communication of company events, news and information.
+		\item During a datacenter migration, I was responsible for logging, tracking and announcing issues to the wider team. This was initially achieved by using Kanban boards within Microsoft Teams, but was migrated to Azure DevOps Boards in order to prioritise workloads more efficiently in an Agile/Scrum format.
+		\item Rewrote and updated the company's IT Security Policy, with the assistance of a colleague and with the guidance of the Head of Finance, to ensure that rules and guidelines were clear, being designed to minimise any potential data loss that would be cause for concern under PCI-DSS regulations.
+	\end{itemize}
+
+	\item
+	\headerrow
+		{\textbf{Ideal World Limited}}
+		{\textbf{Peterborough, UK}}
+	\\
+	\headerrow
+		{\emph{Service Desk Analyst}}
+		{\emph{June '21 -- May '23}}
+	\begin{itemize}
+		\item Tasked with resolving first, second and, on occasion, third-line support tickets into the IT helpdesk. These tickets ranged from assisting with computer peripherals and desk setups to working with both the Application and Infrastructure Support teams to ascertain the cause of a complex issue.
+		\item Exposed to many new technologies and software. These included Active Directory, SCCM and Azure. I became adept at Office 365 administration and routinely assisted users with varying issues, such as problems with OneDrive, Outlook and Windows 10/11.
+		\item Gained knowledge of Microsoft Teams administration through the rollout of a company-wide VoIP solution through the use of Android Teams Devices and upgrading meeting rooms, resulting in increased accessibility and ease-of-use of building office spaces.
+		\item Assisted in running SQL queries under the supervision of the Database Manager to assist with ensuring that manually taken customer payments were correctly allocated to the customer's account on the database(s), resulting in productivity boosts for the database/application/customer experience teams, while providing valuable experience in SQL and SSMS.
+	\end{itemize}
+\pagebreak
+	\item
+	\headerrow
+		{\textbf{Ideal Shopping Direct Limited}}
+		{\textbf{Peterborough, UK}}
+	\\
+	\headerrow
+		{\emph{Returns Specialist}}
+		{\emph{2019 -- 2021}}
+	\begin{itemize}
+		\item Part of a team of three colleagues tasked with performing quality assurance checks on customer returns, in particular, watches and technology. 
+		\item Overhauled the way in which the team tracked items sent to repair using an Excel spreadsheet with basic VBA macros for auto-logging of time and date, automatic formatting of cells based on multiple criteria and enhancing the ``repair sheet'' sent to repairers to make information more accessible and clear, resulting in increased productivity across the returns department.
+	\end{itemize}
+
+	\begin{center}
+		\color{gray}\small\emph{A full work history is available on my \href{https://linkedin.com/in/artydh}{LinkedIn profile}.}
+	\end{center}
+\end{itemize}
+\vspace{-0.5em}
+\hrule
+\vspace{1.75em}
+\section*{Education}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item 
+	\headerrow
+		{\textbf{University College London}}
+		{\textbf{London, UK}}
+	\\
+	\headerrow
+		{\emph{MA Linguistics with a Specialisation in Pragmatics}}
+		{\emph{2019 -- 2020}}
+	\begin{itemize}
+		\item Grade: Merit.
+		\item Notable: A short course on Natural Language Processing and Machine Learning which sparked an interest in data science, analytics and artificial intelligence.
+	\end{itemize}
+    \item 
+	\headerrow
+		{\textbf{University of Brighton}}
+		{\textbf{Brighton, UK}}
+	\\
+	\headerrow
+		{\emph{BA(Hons) Linguistics}}
+		{\emph{2016 -- 2019}}
+	\begin{itemize}
+		\item Grade: First Class w/ Honours.
+		\item Notable: Explored basic Python scripting for use with Praat -- a software used to analyse phonetics.
+	\end{itemize}
+    \begin{center}
+        \emph{\color{gray}\small \& 3x A-Levels, 11x GCSEs. Available on request or via \href{https://www.linkedin.com/in/artydh}{LinkedIn}.}
+    \end{center}
+\end{itemize}
+
+\hrule
+\vspace{1.75em}
+
+\section*{Skills \& Interests}
+\subsection*{Technical}
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description}
+	\item[Computer Languages:]
+	Basic-intermediate SQL, HTML/CSS, Markdown
+    \item[Technologies:]
+    Azure, 365, AD, Sharepoint, Windows 10/11, macOS, basic Linux CLI.
+\end{description}
+\end{indentsection}
+\subsection*{Non-Technical}
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description}
+	\item[Natural Languages:]
+	English (Native), Greek (Beginner)
+    \item[Other:]
+    Communication, time management, organisation, analysis.
+\end{description}
+\end{indentsection}
+
+\subsection*{Misc.}
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description}
+	\item[Interests:]
+	AI/ML, Graphic design, typography, cryptography, philosophy of mind, Buddhism
+	\item[Hobbies:]
+	Language learning, constructed languages/conlanging
+\end{description}
+\end{indentsection}
+
+\vspace{1em}
+\hrule
+\vspace{2em}
+
+\begin{center}
+    \color{gray}\small\emph{References available upon request.}
+\end{center}
+\thispagestyle{empty}
+\end{document}
