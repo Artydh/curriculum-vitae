@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1696690685 "/Users/artydh/Documents/Projects/git/curriculum-vitae/2023-v2/cv-2023-v2.tex" "cv-2023-v2.pdf" "cv-2023-v2" 1696690686 0
-  "/Users/artydh/Documents/Projects/git/curriculum-vitae/2023-v2/cv-2023-v2.tex" 1696690685 8275 4896c5692cc965ed163b7eb12a3ea5c4 ""
+["pdflatex"] 1696691163 "/Users/artydh/Documents/Projects/git/curriculum-vitae/current-cv/current-cv.tex" "current-cv.pdf" "current-cv" 1696691164 0
+  "/Users/artydh/Documents/Projects/git/curriculum-vitae/current-cv/current-cv.tex" 1696691163 8295 993a078a2b833dabc0a018910b254536 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm" 1136768653 1536 293044035fd171bb1d18cf655049b101 ""
@@ -69,12 +69,12 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696513883 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696513876 7883455 94806167465e74b88eaa8a95a5986f40 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv-2023-v2.aux" 1696690685 764 fb4f8f1fe109a6d8fd4c84ee15b6fafe "pdflatex"
-  "cv-2023-v2.out" 1696690685 166 d5a1678f582ecf61fe2baa9305c26cb0 "pdflatex"
-  "cv-2023-v2.tex" 1696690685 8275 4896c5692cc965ed163b7eb12a3ea5c4 ""
+  "current-cv.aux" 1696691164 764 fb4f8f1fe109a6d8fd4c84ee15b6fafe "pdflatex"
+  "current-cv.out" 1696691164 166 d5a1678f582ecf61fe2baa9305c26cb0 "pdflatex"
+  "current-cv.tex" 1696691163 8295 993a078a2b833dabc0a018910b254536 ""
   (generated)
-  "cv-2023-v2.aux"
-  "cv-2023-v2.log"
-  "cv-2023-v2.out"
-  "cv-2023-v2.pdf"
+  "current-cv.aux"
+  "current-cv.log"
+  "current-cv.out"
+  "current-cv.pdf"
   (rewritten before read)

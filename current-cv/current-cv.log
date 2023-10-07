@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  7 OCT 2023 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  7 OCT 2023 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/artydh/Documents/Projects/git/curriculum-vitae/2023-v2/cv-2023-v2.tex
-(/Users/artydh/Documents/Projects/git/curriculum-vitae/2023-v2/cv-2023-v2.tex
+**/Users/artydh/Documents/Projects/git/curriculum-vitae/current-cv/current-cv.tex
+(/Users/artydh/Documents/Projects/git/curriculum-vitae/current-cv/current-cv.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -274,8 +274,8 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box97
-) (./cv-2023-v2.aux)
-\openout1 = `cv-2023-v2.aux'.
+) (./current-cv.aux)
+\openout1 = `current-cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
@@ -331,9 +331,9 @@ LaTeX Font Info:    ... okay on input line 50.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 50.
-(./cv-2023-v2.out) (./cv-2023-v2.out)
+(./current-cv.out) (./current-cv.out)
 \@outlinefile=\write3
-\openout3 = `cv-2023-v2.out'.
+\openout3 = `current-cv.out'.
 
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -381,23 +381,23 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 173.
 
-[2] (./cv-2023-v2.aux)
+[2] (./current-cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `cv-2023-v2.out' has not changed.
+Package rerunfilecheck Info: File `current-cv.out' has not changed.
 (rerunfilecheck)             Checksum: D5A1678F582ECF61FE2BAA9305C26CB0;166.
  ) 
 Here is how much of TeX's memory you used:
  9719 strings out of 476025
- 151075 string characters out of 5790017
+ 151084 string characters out of 5790017
  1868388 words of memory out of 5000000
  30076 multiletter control sequences out of 15000+600000
  515743 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,488b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,491b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on cv-2023-v2.pdf (2 pages, 81169 bytes).
+Output written on current-cv.pdf (2 pages, 81177 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
