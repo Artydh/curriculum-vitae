@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  30 OCT 2023 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  30 OCT 2023 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,16 +306,16 @@ Package hyperref Info: Link coloring ON on input line 23.
 \openout3 = `cover-letter.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 44.
 <sig.jpeg, id=4, 68.4156pt x 58.90005pt>
 File: sig.jpeg Graphic file (type jpg)
 <use sig.jpeg>
-Package pdftex.def Info: sig.jpeg  used on input line 63.
+Package pdftex.def Info: sig.jpeg  used on input line 55.
 (pdftex.def)             Requested size: 55.7556pt x 48.0pt.
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 65.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 57.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./sig.jpeg>] (./cover-letter.aux)
@@ -325,13 +325,13 @@ Package rerunfilecheck Info: File `cover-letter.out' has not changed.
 Here is how much of TeX's memory you used:
  9753 strings out of 476025
  153096 string characters out of 5790017
- 1864388 words of memory out of 5000000
+ 1865388 words of memory out of 5000000
  30102 multiletter control sequences out of 15000+600000
  514137 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,769b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,376b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
-Output written on cover-letter.pdf (1 page, 75850 bytes).
+Output written on cover-letter.pdf (1 page, 72982 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
